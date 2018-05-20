@@ -26,31 +26,28 @@ namespace EjerciciosLibroCsharp.Capitulo5
         public void cap5_5()
         {
             int numero;
-            Console.WriteLine("digite un numero");
+            Console.WriteLine("Cadena de numero entero del 0 a 10 s\n");
+
+            Console.Write("digite numero :");
             numero = int.Parse(Console.ReadLine());
 
-            if (numero == 1)
+            if(numero > 10 || numero < 0)
             {
-                Console.Write("Clifford Jeffrey");
+                Console.WriteLine("la cadena de " + numero + "no existe");
+                Console.WriteLine("trate de nuevo");
+                cap5_5();
+            }
+            else
+            {
+                Cadena(numero);
+            }
+            Console.ReadKey();
+        }
 
-            }
-            else if (numero == 2)
-            {
-                Console.Write("Danilo Medina");
-            }
-            else if (numero == 3)
-            {
-                Console.Write("Programacion Aplicada 1");
-            }
-            else if (numero == 4)
-            {
-                Console.Write("Republica Dominicana");
-            }
-            else if (numero > 4)
-            {
-                Console.WriteLine("ya no hay mas Palabra solo cuatro Palabra");
-
-            }
+        public void Cadena(int numero)
+        {
+            string[] numeroletra = new string[] { "cero", "uno", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho", "nueve", "diez" };
+            Console.WriteLine("Cadena: " + numeroletra[numero]);
             Console.ReadKey();
         }
     }

@@ -71,6 +71,34 @@ namespace EjerciciosLibroCsharp
                         Console.Clear();
 
                         break;
+
+                    case "3":
+                        Console.WriteLine("1- calificaciones");
+                        linea = Console.ReadLine();
+                        Console.Clear();
+                        if (linea == "1")
+                        {
+                            EjerciciosLibroCsharp.Chapter7.ejercicios1_2_5 E = new EjerciciosLibroCsharp.Chapter7.ejercicios1_2_5();
+                            E.cap7_1();
+
+                        }
+                        Console.Clear();
+
+                        break;
+
+                    case "4":
+                        Console.WriteLine("1- Forma de feha");
+                        linea = Console.ReadLine();
+                        Console.Clear();
+                        if (linea == "1")
+                        {
+                            EjerciciosLibroCsharp.Chapter8.ejercicios3_5 E = new EjerciciosLibroCsharp.Chapter8.ejercicios3_5();
+                            E.cap8_3();
+
+                        }
+                        Console.Clear();
+
+                        break;
                 }
             }
         }
