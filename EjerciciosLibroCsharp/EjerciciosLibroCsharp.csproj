@@ -40,7 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Capitulo5\ejercicios4_5.cs" />
+    <Compile Include="Chapter5\ejercicios4_5.cs" />
+    <Compile Include="Chapter6\ejercicios1_2_3_4_5.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

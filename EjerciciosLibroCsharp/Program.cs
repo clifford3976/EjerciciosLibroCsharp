@@ -43,6 +43,34 @@ namespace EjerciciosLibroCsharp
                         Console.Clear();
 
                         break;
+
+                    case "2":
+                        Console.WriteLine("1- calculo promedio");
+                        Console.WriteLine("2- menor calificacion");
+                        Console.WriteLine("3- mayor calificacion");
+                        linea = Console.ReadLine();
+                        Console.Clear();
+                        if (linea == "1")
+                        {
+                            EjerciciosLibroCsharp.Chapter6.ejercicios1_2_3_4_5 E = new EjerciciosLibroCsharp.Chapter6.ejercicios1_2_3_4_5();
+                            E.cap6_1();
+
+                        }
+                        else
+                            if (linea == "2")
+                        {
+                            EjerciciosLibroCsharp.Chapter6.ejercicios1_2_3_4_5 E = new EjerciciosLibroCsharp.Chapter6.ejercicios1_2_3_4_5();
+                            E.cap6_2();
+                        }
+                        else
+                                    if (linea == "3")
+                        {
+                            EjerciciosLibroCsharp.Chapter6.ejercicios1_2_3_4_5 E = new EjerciciosLibroCsharp.Chapter6.ejercicios1_2_3_4_5();
+                            E.cap6_3();
+                        }
+                        Console.Clear();
+
+                        break;
                 }
             }
         }
